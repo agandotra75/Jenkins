@@ -15,7 +15,7 @@ import static org.junit.Assert.*;
  * A unit test aims to test all code and code paths of a specific class.
  */
 public class HelloTest {
-
+/**
     @Test
     public void testSayHello() {
         OutputStream os = new ByteArrayOutputStream();
