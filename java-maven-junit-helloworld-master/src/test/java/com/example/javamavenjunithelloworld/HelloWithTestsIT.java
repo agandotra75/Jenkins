@@ -21,8 +21,8 @@ public class HelloWithTestsIT {
 
     @Rule
     public final StandardOutputStreamLog out = new StandardOutputStreamLog();
-/**
-    @Test
+
+/**    @Test
     public void doesItSayHelloTest() {
         String[] args = {"1"};
         HelloApp.main(args);
@@ -38,5 +38,6 @@ public class HelloWithTestsIT {
         String thrice = Hello.HELLO + "\n" + Hello.HELLO + "\n" + Hello.HELLO + "\n";
         assertThat(out.getLog(), is(equalTo(thrice)));
     }
+ */
 }
-*/
+
