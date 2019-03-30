@@ -21,7 +21,7 @@ public class HelloWithTestsIT {
 
     @Rule
     public final StandardOutputStreamLog out = new StandardOutputStreamLog();
-
+/**
     @Test
     public void doesItSayHelloTest() {
         String[] args = {"1"};
