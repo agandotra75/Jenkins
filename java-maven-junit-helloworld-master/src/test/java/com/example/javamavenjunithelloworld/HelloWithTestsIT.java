@@ -39,3 +39,4 @@ public class HelloWithTestsIT {
         assertThat(out.getLog(), is(equalTo(thrice)));
     }
 }
+*/
